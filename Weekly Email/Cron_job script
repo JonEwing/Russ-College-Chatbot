@@ -1,0 +1,2 @@
+0 0 * * SUN ./sql_to_excel.out
+0 0 * * SUN ./excel_to_emai.out
