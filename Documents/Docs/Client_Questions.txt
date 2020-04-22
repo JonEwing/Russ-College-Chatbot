@@ -1,0 +1,10 @@
+Client Questions:
+Next Meeting:
+-	What kind of introductory message would like users to see?
+-	Cookie, To Aaron: Can we use them with an OU web domain and is there a standard setup already? (Legal and whether Dr. Deb wants them)
+-	Encryption of personally identifying information, To Aaron: Is there a standard setup for encryption or is that up to use?
+
+
+
+mcdaid@ohio.edu
+stottlem@ohio.edu
