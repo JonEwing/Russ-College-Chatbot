@@ -1,0 +1,5 @@
+2020-04-17 10:47:18,709 | INFO | logger.py in setup: Begin logging to db.log
+2020-04-17 10:47:18,711 | INFO | database.py in <module>: Connected to ChatbotDB.db
+2020-04-17 10:47:18,729 | INFO | database.py in create_table: Creating `good_call` table
+2020-04-17 10:47:18,740 | INFO | database.py in create_table: Creating `bad_call` table
+2020-04-17 10:47:18,749 | INFO | database.py in create_feedback_table: Creating `feedback` table

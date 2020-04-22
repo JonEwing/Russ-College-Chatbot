@@ -1,0 +1,8 @@
+2020-04-17 10:47:18,713 | INFO | chatbot_logger.py in setup: Begin logging to chat.log
+2020-04-17 10:47:19,541 | INFO | chat.py in my_other_thread: Launching a new thread*
+2020-04-17 10:47:40,686 | INFO | chat.py in js_to_py: JavaScript is running chat.py
+2020-04-17 10:47:40,731 | INFO | chat.py in js_to_py: Hello
+2020-04-17 10:47:40,732 | INFO | chat.py in js_to_py: Response: "Greetings!" - Confidence: 100.0%
+2020-04-17 10:47:42,375 | INFO | chat.py in js_to_py: JavaScript is running chat.py
+2020-04-17 10:47:42,611 | INFO | chat.py in js_to_py: Fuck
+2020-04-17 10:47:42,611 | INFO | chat.py in js_to_py: Response: "I do not understand your question. Could you try rephrasing it? Or type "help with bot" for more information." - Confidence: 0%

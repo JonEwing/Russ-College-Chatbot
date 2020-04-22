@@ -1,0 +1,16 @@
+2020-04-17 10:46:54,631 | INFO | logger.py in setup: Begin logging to build.log
+2020-04-17 10:46:54,632 | INFO | build.py in <module>: Set default response: I do not understand your question. Could you try rephrasing it? Or type "help with bot" for more information.
+2020-04-17 10:46:54,632 | INFO | build.py in <module>: Set Chatterbot confidence lower-bound: 0.5
+2020-04-17 10:46:54,633 | INFO | build.py in <module>: Set default response selector: <function get_random_response at 0x000001E466385D38>
+2020-04-17 10:46:54,633 | INFO | build.py in <module>: Set default comparison method: <chatterbot.comparisons.LevenshteinDistance object at 0x000001E46638AE88>
+2020-04-17 10:46:54,633 | INFO | build.py in <module>: Set default preprocessor(s): ['chatterbot.preprocessors.clean_whitespace', 'chatterbot.preprocessors.unescape_html', 'chatterbot.preprocessors.convert_to_ascii']
+2020-04-17 10:46:54,635 | INFO | build.py in <module>: Set default logic adapter(s): [{'import_path': 'chatterbot.logic.BestMatch', 'default_response': 'I do not understand your question. Could you try rephrasing it? Or type "help with bot" for more information.', 'maximum_similarity_threshold': 0.5}, {'import_path': 'logic.logic_adapters.wiki_adapter.WikiLogicAdapter'}, {'import_path': 'logic.logic_adapters.weather_adapter.WeatherAdapter'}, {'import_path': 'logic.logic_adapters.tour_adapter.TourAdapter'}]
+2020-04-17 10:46:54,635 | INFO | build.py in <module>: Building Chatterbot.Chatbot: R2
+2020-04-17 10:46:56,002 | INFO | build.py in <module>: Building ChatterbotCorpusTrainer
+2020-04-17 10:46:56,002 | INFO | build.py in <module>: Starting Training
+2020-04-17 10:47:18,696 | INFO | build.py in <module>: Ended Training
+2020-04-17 10:47:18,709 | INFO | logger.py in setup: Begin logging to db.log
+2020-04-17 10:47:18,711 | INFO | database.py in <module>: Connected to ChatbotDB.db
+2020-04-17 10:47:18,729 | INFO | database.py in create_table: Creating `good_call` table
+2020-04-17 10:47:18,740 | INFO | database.py in create_table: Creating `bad_call` table
+2020-04-17 10:47:18,749 | INFO | database.py in create_feedback_table: Creating `feedback` table
