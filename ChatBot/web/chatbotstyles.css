@@ -1,0 +1,393 @@
+/* toggle button */
+#r2{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    bottom: 10px;
+    background-image:url('./images/logoV2.png');
+    background-color: #00694E;
+    border: 1px solid black;
+    background-position: 50% 40%;
+    background-size: 125%;
+    border-radius: 100%;
+    outline: none;
+}
+
+#r2:active{
+    box-shadow: inset 0px 0px 6px black;
+    background-size: 110%;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+/* default styling for chatbot as a whole*/
+.chatbot {
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    width: 252px;
+    height: 424px;
+    background-color: white;
+    border: 0.5px solid rgb(150, 150, 150);
+    border-radius: 0px 15px 15px 15px;
+    transform: scale(0);
+    transform-origin: bottom right;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 3px 3px 6px rgb(100, 100, 100);
+}
+
+/* toggle animations */
+.toggleShow{
+    animation-name: toggleShow;
+    animation-duration: 0.2s;
+}
+
+.toggleHide{
+    animation-name: toggleHide;
+    animation-duration: 0.2s;
+}
+
+@keyframes toggleShow{
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(initial);
+    }
+}
+
+@keyframes toggleHide{
+    from {
+        transform: scale(initial);
+    }
+    to {
+        transform: scale(0);
+    }
+}
+
+.r2Open {
+    background-image: url(./images/X.png) !important;
+    background-position-y: 50% !important;
+    animation-name: r2Open;
+    animation-duration: 0.2s;
+}
+
+.r2Close {
+    background-image: url(./images/logoV2.png) !important;
+    background-position-y: 40% !important;
+    animation-name: r2Close;
+    animation-duration: 0.2s;
+}
+
+@keyframes r2Open {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes r2Close {
+    from {
+        transform: rotate(180deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.chatbot #header {
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(20deg, #00694E, rgb(0, 153, 115), #00694E);
+    border-radius: 14px 14px 0 0;
+    color: white;
+    user-select: none;
+    -ms-user-select: none;
+}
+
+.chatbot #profileImg {
+    height: 26px;
+    width: 26px;
+    margin-top: 8px;
+    margin-left: 8px;
+    background-image: url('./images/profile.png');
+    background-size: 100%;
+    border-radius: 100%;
+    float: left;
+}
+
+.chatbot h4{
+    font-size: 15px;
+    margin: 0;
+    padding: 10px;
+    margin-left: 32px;
+    font-weight: bold;
+    
+}
+
+/* scale */
+.chatbot #scaler {
+    position: fixed;
+    border-top: 13px solid #00694E;
+    border-right: 13px solid transparent;
+}
+
+.chatbot #scaler:hover {
+    cursor: nw-resize;
+}
+
+/* messaging window */
+.chatbot ul{
+    background-color: white;
+    border-bottom: 0.5px solid rgb(150, 150, 150);
+    list-style: none;
+    height: 340px;
+    margin: 0;
+    padding: 10px;
+    font-size: 10px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+
+#responseButtons {
+    display: none;
+    /* display: block; */
+    position: absolute;
+    bottom: 50px;
+    left: 75%;
+    margin-left: -104.5px; /*104.5px is half of the button's width*/
+}
+
+::-webkit-scrollbar {
+    max-width: 8px;
+    background: rgb(240, 240, 240);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(205, 205, 205);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(185, 185, 185);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: rgb(110, 110, 110);
+}
+
+/* messages */
+.chatbot li{
+    padding: 2px 10px;
+    margin: 0;
+    margin-bottom: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+/* styling specific to user messages */
+#usertext{
+    float: right;
+    background-color: #F5F3F0;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* styling specific to messages from bot */
+#chattext{
+    float: left;
+    background-color: #00694E;
+    border-radius: 10px 10px 10px 0px;
+    color: white;
+}
+
+.chatbot lb {
+    padding-left: 100%;
+    float: left;
+}
+
+/* bottom of chat winodw containing input and speech fuctions*/
+.chatbot #chatForm{
+    margin: 0;
+}
+
+/* text input box */
+.chatbot #chatinput{
+    width: 70%;
+    height: 35px;
+    font-size: 11px;
+    border: none !important;
+    border-radius: 0px;
+    margin-left: 5px;
+    outline: none;
+}
+
+/* submit button */
+.chatbot #submit{
+    float: right;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    background-image:url('./images/sendV2.png');
+    background-size: 150%;
+    background-position: 50%;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    margin-right: 5px;
+    margin-top: 4px;
+    outline: 0;
+}
+
+.chatbot #submit:active{
+    background-size: 140%;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+  
+  /* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.chatbot #login_window {
+    position: inherit;
+    text-align: center;
+    margin: auto;
+    bottom: 0px;
+    width: 100%;
+    background-image: linear-gradient(20deg, #00694E, rgb(0, 153, 115), #00694E);
+    border-radius: 0px 0px 14px 14px;
+}
+
+.chatbot #login {
+    margin: 0;
+}
+
+.chatbot #name, #email {
+    width: 40%;
+    margin: 15px 5px 0px;
+    font-size: x-small;
+}
+
+.chatbot #name:-webkit-autofill::first-line,
+.chatbot #email:-webkit-autofill::first-line {
+    font-size: x-small;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.chatbot #loginSubmit{
+    height: 20px;
+    background:#00694e;
+    border-radius:4px;
+    color:white;
+    text-align:center;
+    font-size: x-small;
+}
+
+.chatbot #login_window input {
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+}
+
+.fa-bars {
+    position: absolute;
+    left: 88%;
+    top: 3%;
+    transition: color 1s ease-out;
+}
+
+.fa-bars:hover {
+    color: #CDCDCD;
+    transition: color 1s ease-in;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+    top: 40px;
+    font-size: 12px;
+    max-width: 80%;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #00694E;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(0, 134, 101);
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.show {
+    display:block;
+}
+
+.fa-microphone {
+    background:transparent;
+}
+
+.stt-btn {
+    float: right;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+.fontBtn {
+    color: white;
+    background-color: #00694E;
+    border-radius: 5px;
+    width: 25px;
+    height: 20px;
+    vertical-align: middle;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+#fontu {
+    margin-left: 5px;
+}
+
+#fontd {
+    margin-right: 5px;
+}
+
+#mbt {
+    font-size: x-small;
+}

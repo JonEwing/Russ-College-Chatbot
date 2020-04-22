@@ -1,0 +1,91 @@
+<html lang="en">
+<meta charset="UTF-8">
+    <head>
+        <!-- Chatbot Styling -->
+        <link rel="stylesheet" href="chatbotstyles.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <!-- Font Awesome Icons/Fonts -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- eel library -->
+        <script type="text/javascript" src="/eel.js"></script>
+    </head>
+    <body>
+        <!--Chatbot toggle button-->
+        <button id="r2" title="I'm a Chatbot that can answer questions about the University.
+Note: Internet Explorer is not supported"></button>
+
+        <div class="chatbot">
+            <div id="header">
+                <!--Icon to scale the window-->
+                <div id="scaler"></div>
+                <div id="profileImg"></div>
+                <h4>Russ Rufus</h4>
+                <div id="headerMenu" onclick="displayMenu()">
+                    <i class="clickable fa fa-bars fa-lg"></i>
+                    <div id="dropdownMenu" class="dropdown-content">
+                        <div id="clear" onclick='clearConversation()'><a>Clear Conversation</a></div>
+                        <div id="toggle" onclick='toggleTextToSpeech()'><a>Enable Text-to-Speech</a></div>
+                        <div id="font-size"><a><button id="fontd" class="fontBtn" onclick="decreaseFontSize()">-</button>Change Font Size<button id="fontu" class="fontBtn" onclick="increaseFontSize()">+</button></a></div>
+                        <div id="mute" onclick='muteSounds()'><a>Mute Sounds</a></div>
+                        <a id="mbt">You can also talk to me on your phone! Just text +1 201-584-9667</a>
+                        </div>
+                </div>
+            </div>
+
+            <!--Element that displays all the messages-->
+            <div id="chatlog_slide">
+                <ul id="chatlog">
+                    <!-- <li id="chattext">Please provide us with you name and email below. We use this information to help respond to questions we don't yet have answers to and make improvements.</li> -->
+                </ul>
+                <div id="responseButtons" class="btn-group mr-2" role="group">
+                    <button id="yesResponseBtn" type="button" class="btn btn-outline-success btn-sm">Yes</button>
+                    <button id="noResponseBtn" type="button" class="btn btn-outline-danger btn-sm">No</button>
+                </div>
+            </div>
+
+            <!--Element holds the chatbot's input methods-->
+            <form id="chatForm">
+                <!--Text input-->
+                <input type="text" id="chatInput" placeholder="Enter Questions Here" autocomplete="off" spellcheck="true">
+
+                <!--Submit button-->
+                <input type="submit" id="submit" value="">
+
+                <!--STT button-->
+                <div class="stt-btn">
+                    <i id="micButton" data-toggle="tooltip" title="Speech-to-Text available on Chrome" class="fa fa-microphone fa-lg" onclick="startVoiceCapture()"></i>
+                </div>
+                
+            </form>
+
+            <div id="login_window">
+                <div id="login_message">
+                    <p class="text-sm-center font-weight-light lead" style="margin: 1rem; color: white; font-size: small;">
+                        Please provide us with you name and email to
+                        start talking with Russ.
+                    </p>
+                    <p class="text-sm-center font-weight-light lead" style="margin: 1rem; color: white; font-size: small;">
+                        We use this information to improve
+                        our algorithm and to expand Russ'
+                        knowledge base.
+                    </p>
+                </div>
+                <form id="login">
+                    <input type="text" id="name" placeholder="Name">
+                    <input type="email" id="email" placeholder="Email">
+                    <input type="submit" id="loginSubmit" value="Submit">
+                </form>
+            </div>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="TTS_STT.js"></script>
+    <script src=chatbot.js></script>
+    </body>
+</html>
