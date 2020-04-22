@@ -1,0 +1,312 @@
+categories:
+- Test
+- Help
+
+conversations:
+- - Test
+  - Chatbot is functional
+
+- - Help
+  - You can ask any question and I can try to answer it, you can also type "Help, [Major]" to be directed to the department for each major. Alternatively, type "FAQ" for a list of questions on helpful topics I know about.
+
+- - help
+  - You can ask any question and I can try to answer it, you can also type "Help, [Major]" to be directed to the department for each major. Alternatively, type "FAQ" for a list of questions on helpful topics I know about.
+
+- - help with bot
+  - Your question is best suited for a real person, try The Russ College at 740.593.1474 or email Dr. McAvoy (mcavoy@ohio.edu)
+- - Help, [Major]
+  - Great, you think you are funny. [Major] == the name of the major you would like to know more about.
+
+- - Help, Industrial Engineering
+  - You can reach out to the Industrial Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - Help, IE
+  - You can reach out to the Industrial Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - Help ie
+  - You can reach out to the Industrial Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - Help, Systems Engineering
+  - You can reach out to the Systems Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - Help, SE
+  - You can reach out to the Systems Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - Help se
+  - You can reach out to the Systems Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - Help, Mechanical Engineering
+  - You can reach out to the Mechanical Engineering department at (740)593-1553 or email mechanical@ohio.edu
+
+- - Help, ME
+  - You can reach out to the Mechanical Engineering department at (740)593-1553 or email mechanical@ohio.edu
+
+- - Help me
+  - You can reach out to the Mechanical Engineering department at (740)593-1553 or email mechanical@ohio.edu
+
+- - Help, Technical Operations Management
+  - Ohio University's Bachelor of Science in Technical Operations Management online program–the first of its kind in the state of Ohio–is designed for associate's degree graduates who want to further their education and advance their careers. Get more information at https://www.ohio.edu/admissions/online/technical-operations-management
+
+- - Help, Aviation
+  - You can reach out to the Aviation department at (740)597-2626 or email aviation@ohio.edu
+
+- - Help, Chemical Engineering
+  - You can reach out to the Chemical Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - Help, ChemE
+  - You can reach out to the Chemical Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - Help cheme
+  - You can reach out to the Chemical Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - Help, Biomolecular Engineering
+  - You can reach out to the Biomolecular Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - Help, BE
+  - You can reach out to the Biomolecular Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - Help be
+  - You can reach out to the Biomolecular Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - Help, Civil Engineering
+  - You can reach out to the Civil Engineering department at (740)593-1465 or email civil@ohio.edu
+
+- - Help, CE
+  - You can reach out to the Civil Engineering department at (740)593-1465 or email civil@ohio.edu
+
+- - Help ce
+  - You can reach out to the Civil Engineering department at (740)593-1465 or email civil@ohio.edu
+
+- - Help, Electrical Engineering
+  - You can reach out to the Electrical Engineering department at  (740)593-1568 or email eecs@ohio.edu
+
+- - Help, EE
+  - You can reach out to the Electrical Engineering department at  (740)593-1568 or email eecs@ohio.edu
+
+- - Help ee
+  - You can reach out to the Electrical Engineering department at  (740)593-1568 or email eecs@ohio.edu
+
+- - Help, Computer Science
+  - You can reach out to the Computer Science department at (740)593-1568 or email eecs@ohio.edu
+
+- - Help, CS
+  - You can reach out to the Computer Science department at (740)593-1568 or email eecs@ohio.edu
+
+- - Help cs
+  - You can reach out to the Computer Science department at (740)593-1568 or email eecs@ohio.edu
+
+- - Help, Energy Engineering
+  - You can reach out to the Energy Engineering department at (740)593-1553 or email mechanical@ohio.edu
+
+- - Help, Engineering Technology and Management
+  - You can reach out to the Engineering Technology and Management department at (740)593-1455 or email engineeringtech@ohio.edu
+
+- - Help, ETM
+  - You can reach out to the Engineering Technology and Management department at (740)593-1455 or email engineeringtech@ohio.edu
+
+- - Help etm
+  - You can reach out to the Engineering Technology and Management department at (740)593-1455 or email engineeringtech@ohio.edu
+
+- - Help, Industrial Engineering
+  - You can reach out to the Industrial Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - Help, IE
+  - You can reach out to the Industrial Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - Help ie
+  - You can reach out to the Industrial Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - Help, Systems Engineering
+  - You can reach out to the Systems Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - Help, SE
+  - You can reach out to the Systems Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - Help se
+  - You can reach out to the Systems Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - Help, Mechanical Engineering
+  - You can reach out to the Mechanical Engineering department at (740)593-1553 or email mechanical@ohio.edu
+
+- - Help, ME
+  - You can reach out to the Mechanical Engineering department at (740)593-1553 or email mechanical@ohio.edu
+
+- - Help me
+  - You can reach out to the Mechanical Engineering department at (740)593-1553 or email mechanical@ohio.edu
+
+- - Help, Technical Operations Management
+  - Ohio University's Bachelor of Science in Technical Operations Management online program–the first of its kind in the state of Ohio–is designed for associate's degree graduates who want to further their education and advance their careers. Get more information at https://www.ohio.edu/admissions/online/technical-operations-management
+
+- - Help, Aviation
+  - You can reach out to the Aviation department at (740)597-2626 or email aviation@ohio.edu
+
+- - Help, Chemical Engineering
+  - You can reach out to the Chemical Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - Help, ChemE
+  - You can reach out to the Chemical Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - Help cheme
+  - You can reach out to the Chemical Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - Help, Biomolecular Engineering
+  - You can reach out to the Biomolecular Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - Help, BE
+  - You can reach out to the Biomolecular Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - Help be
+  - You can reach out to the Biomolecular Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - Help, Civil Engineering
+  - You can reach out to the Civil Engineering department at (740)593-1465 or email civil@ohio.edu
+
+- - Help, CE
+  - You can reach out to the Civil Engineering department at (740)593-1465 or email civil@ohio.edu
+
+- - Help ce
+  - You can reach out to the Civil Engineering department at (740)593-1465 or email civil@ohio.edu
+
+- - Help, Electrical Engineering
+  - You can reach out to the Electrical Engineering department at  (740)593-1568 or email eecs@ohio.edu
+
+- - Help, EE
+  - You can reach out to the Electrical Engineering department at  (740)593-1568 or email eecs@ohio.edu
+
+- - Help ee
+  - You can reach out to the Electrical Engineering department at  (740)593-1568 or email eecs@ohio.edu
+
+- - Help, Computer Science
+  - You can reach out to the Computer Science department at (740)593-1568 or email eecs@ohio.edu
+
+- - Help, CS
+  - You can reach out to the Computer Science department at (740)593-1568 or email eecs@ohio.edu
+
+- - Help cs
+  - You can reach out to the Computer Science department at (740)593-1568 or email eecs@ohio.edu
+
+- - Help, Energy Engineering
+  - You can reach out to the Energy Engineering department at (740)593-1553 or email mechanical@ohio.edu
+
+- - Help, Engineering Technology and Management
+  - You can reach out to the Engineering Technology and Management department at (740)593-1455 or email engineeringtech@ohio.edu
+
+- - Help, ETM
+  - You can reach out to the Engineering Technology and Management department at (740)593-1455 or email engineeringtech@ohio.edu
+
+- - Help etm
+  - You can reach out to the Engineering Technology and Management department at (740)593-1455 or email engineeringtech@ohio.edu
+
+- - help, Industrial Engineering
+  - You can reach out to the Industrial Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - help, IE
+  - You can reach out to the Industrial Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - help ie
+  - You can reach out to the Industrial Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - help, Systems Engineering
+  - You can reach out to the Systems Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - help, SE
+  - You can reach out to the Systems Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - help se
+  - You can reach out to the Systems Engineering department at (740)593-1539 or email ise@ohio.edu
+
+- - help, Mechanical Engineering
+  - You can reach out to the Mechanical Engineering department at (740)593-1553 or email mechanical@ohio.edu
+
+- - help, ME
+  - You can reach out to the Mechanical Engineering department at (740)593-1553 or email mechanical@ohio.edu
+
+- - help me
+  - You can reach out to the Mechanical Engineering department at (740)593-1553 or email mechanical@ohio.edu
+
+- - help, Technical Operations Management
+  - Ohio University's Bachelor of Science in Technical Operations Management online program–the first of its kind in the state of Ohio–is designed for associate's degree graduates who want to further their education and advance their careers. Get more information at https://www.ohio.edu/admissions/online/technical-operations-management
+
+- - help, Aviation
+  - You can reach out to the Aviation department at (740)597-2626 or email aviation@ohio.edu
+
+- - help, Chemical Engineering
+  - You can reach out to the Chemical Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - help, ChemE
+  - You can reach out to the Chemical Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - help cheme
+  - You can reach out to the Chemical Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - help, Biomolecular Engineering
+  - You can reach out to the Biomolecular Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - help, BE
+  - You can reach out to the Biomolecular Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - help be
+  - You can reach out to the Biomolecular Engineering department at (740)593-1492 or email chemical@ohio.edu
+
+- - help, Civil Engineering
+  - You can reach out to the Civil Engineering department at (740)593-1465 or email civil@ohio.edu
+
+- - help, CE
+  - You can reach out to the Civil Engineering department at (740)593-1465 or email civil@ohio.edu
+
+- - help ce
+  - You can reach out to the Civil Engineering department at (740)593-1465 or email civil@ohio.edu
+
+- - help, Electrical Engineering
+  - You can reach out to the Electrical Engineering department at  (740)593-1568 or email eecs@ohio.edu
+
+- - help, EE
+  - You can reach out to the Electrical Engineering department at  (740)593-1568 or email eecs@ohio.edu
+
+- - help ee
+  - You can reach out to the Electrical Engineering department at  (740)593-1568 or email eecs@ohio.edu
+
+- - help, Computer Science
+  - You can reach out to the Computer Science department at (740)593-1568 or email eecs@ohio.edu
+
+- - help, CS
+  - You can reach out to the Computer Science department at (740)593-1568 or email eecs@ohio.edu
+
+- - help cs
+  - You can reach out to the Computer Science department at (740)593-1568 or email eecs@ohio.edu
+
+- - help, Energy Engineering
+  - You can reach out to the Energy Engineering department at (740)593-1553 or email mechanical@ohio.edu
+
+- - help, Engineering Technology and Management
+  - You can reach out to the Engineering Technology and Management department at (740)593-1455 or email engineeringtech@ohio.edu
+
+- - help, ETM
+  - You can reach out to the Engineering Technology and Management department at (740)593-1455 or email engineeringtech@ohio.edu
+
+- - help etm
+  - You can reach out to the Engineering Technology and Management department at (740)593-1455 or email engineeringtech@ohio.edu
+
+- - FAQ
+  - Some questions you might find it helpful to ask are;              What are co-op opportunities?     Are there separate scholarships for college of engineering?      Does the School assist with Job Placement?       When do students declare a major?      What is your job placement rate after college?       What is your approach to interships?
+
+- - FAq
+  - Some questions you might find it helpful to ask are;              What are co-op opportunities?     Are there separate scholarships for college of engineering?      Does the School assist with Job Placement?       When do students declare a major?      What is your job placement rate after college?       What is your approach to interships?
+
+- - Faq
+  - Some questions you might find it helpful to ask are;              What are co-op opportunities?     Are there separate scholarships for college of engineering?      Does the School assist with Job Placement?       When do students declare a major?      What is your job placement rate after college?       What is your approach to interships?
+
+- - faq
+  - Some questions you might find it helpful to ask are;              What are co-op opportunities?     Are there separate scholarships for college of engineering?      Does the School assist with Job Placement?       When do students declare a major?      What is your job placement rate after college?       What is your approach to interships?
+
+- - fAQ
+  - Some questions you might find it helpful to ask are;              What are co-op opportunities?     Are there separate scholarships for college of engineering?      Does the School assist with Job Placement?       When do students declare a major?      What is your job placement rate after college?       What is your approach to interships?
+
+- - fAq
+  - Some questions you might find it helpful to ask are;              What are co-op opportunities?     Are there separate scholarships for college of engineering?      Does the School assist with Job Placement?       When do students declare a major?      What is your job placement rate after college?       What is your approach to interships?
+
+- - FaQ
+  - Some questions you might find it helpful to ask are;              What are co-op opportunities?     Are there separate scholarships for college of engineering?      Does the School assist with Job Placement?       When do students declare a major?      What is your job placement rate after college?       What is your approach to interships?
+
+- - faQ
+  - Some questions you might find it helpful to ask are;              What are co-op opportunities?     Are there separate scholarships for college of engineering?      Does the School assist with Job Placement?       When do students declare a major?      What is your job placement rate after college?       What is your approach to interships?
